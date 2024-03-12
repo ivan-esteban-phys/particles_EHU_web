@@ -1540,6 +1540,7 @@ input, select, textarea {
 			margin: 0 1.5em 1.5em 0;
 			position: relative;
 			top: 0.5em;
+			max-width: 25%;
 		}
 
 		.image.centered {
@@ -1549,7 +1550,8 @@ input, select, textarea {
 
 			.image.centered img {
 				margin: 0 auto;
-				width: auto;
+				width: 31em;
+				max-width: 100%;
 			}
 
 /* List */
@@ -1948,6 +1950,9 @@ input, select, textarea {
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
 			font-size: 3em;
 			letter-spacing: 13px;
+			line-height: 1.1em;
+			margin-top: -0.3em;
+			margin-bottom: -0.3em;
 		}
 
 		#header h2 {
@@ -2328,7 +2333,7 @@ input, select, textarea {
 		/* Image */
 
 			.image.left {
-				max-width: 50%;
+				max-width: 25%;
 			}
 
 			.image.right {
@@ -2763,6 +2768,9 @@ input, select, textarea {
 					border-left: 0;
 				}
 
+				.row > .col-3{
+				    width: 33%
+				}
 	}
 
 code {
@@ -2814,6 +2822,12 @@ code {
   border-radius: 15px;
   width: 60%;
   position: relative;
+}
+
+@media screen and (max-width: 736px) {
+    .popup {
+	width: 100%
+    }
 }
 
 .popup .close {
