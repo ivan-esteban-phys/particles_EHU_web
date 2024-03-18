@@ -2844,7 +2844,7 @@ code {
 @media screen and (max-width: 736px) {
     .long {
 	width: 100%;
-	font-size: 75%;
+	font-size: 70%;
     }
 }
 
