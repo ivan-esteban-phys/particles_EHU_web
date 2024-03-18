@@ -2827,25 +2827,14 @@ code {
   border-radius: 15px;
   width: 60%;
   position: relative;
+
+  max-height: 80%;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 736px) {
     .popup {
 	width: 100%
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .long{
-	width: 100%
-    }
-}
-
-@media screen and (max-width: 736px) {
-    .long {
-	width: 100%;
-	overflow: auto;
-	/* font-size: 70%; */
     }
 }
 
