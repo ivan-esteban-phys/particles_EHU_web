@@ -2835,6 +2835,7 @@ code {
 
 .popup .header {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
 }
 
