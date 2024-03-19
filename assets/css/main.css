@@ -2834,8 +2834,8 @@ code {
 }
 
 .popup .header {
+    position: -webkit-sticky;
     position: sticky;
-    display: block;
     top: 0;
 }
 
