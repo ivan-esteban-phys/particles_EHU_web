@@ -1195,7 +1195,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 25px 0 15px 50px;
+						padding: 40px 0 5px 50px;
 					}
 
 					.row.gtr-uniform {
@@ -1440,7 +1440,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 5px 0 15px 30px;
+						padding: 15px 0 5px 30px;
 					}
 
 					.row.gtr-uniform {
